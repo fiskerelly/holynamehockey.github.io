@@ -3,6 +3,7 @@
 </script>
 
 <h1>{title}</h1>
+
 <div class="details">
 	<div class="time">{time}</div>
 	<div class="place">
