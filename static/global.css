@@ -1,7 +1,14 @@
+ :root {
+	--primary: #318128;
+}
+* {
+	font-family: "Open Sans", sans-serif;
+}
 body {
 	text-align: center;
 }
 h1 {
-	color: #318128;
-	font-weight: bold;
+	color: var(--primary);
+	font-weight: 900;
+	text-transform: uppercase;
 }

@@ -1,12 +1,12 @@
 <script>
-	export let title;
+	export let title, time, place;
 </script>
 
 <h1>{title}</h1>
 <div class="details">
-	<div class="time">Sunday, September 15, 2024</div>
+	<div class="time">{time}</div>
 	<div class="place">
-		<a href="https://www.eastmountaincc.com/" target="blank" rel="noopener noreferrer">East Mountain Country Club</a>
+		<a href={place.link} target="blank" rel="noopener noreferrer">{place.text}</a>
 	</div>
 	<div class="schedule">
 		<h3>Schedule</h3>
@@ -23,7 +23,7 @@
 		<div class="name">Tim</div>
 		<div class="handle">@Timothy-Harper-23</div>
 		<div class="qr-code">
-			<img src="/venmo.jpg" alt="QR code to pay with venmo" />
+			<img src="/media/venmo.webp" alt="QR code to pay with venmo" />
 		</div>
 	</div>
 	<div class="checks">
@@ -41,9 +41,3 @@
 		<div>Contact Laura</div>
 	</div>
 </div>
-
-<style>
-	h1 {
-		font-family: Helvetica, sans-serif;
-	}
-</style>
