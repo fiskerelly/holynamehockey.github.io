@@ -1,0 +1,1 @@
+let allMedia=["media/logo.svg","media/venmo.webp"];export default allMedia

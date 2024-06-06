@@ -1,0 +1,1 @@
+const allContent=[{pager:null,type:"_index",path:"/",filepath:"content/_index.json",filename:"_index.json",fields:{title:"Holy Name Hockey Golf Tournament",time:"Sunday, September 15, 2024",place:{text:"East Mountain Country Club",link:"https://www.eastmountaincc.com/"}}}];export default allContent
